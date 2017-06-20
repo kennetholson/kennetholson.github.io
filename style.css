@@ -58,22 +58,28 @@ html {
 	padding: 2.5%;
 }
 
+#happy-camper-img {
+	text-align: center;
+}
+
 #rflct-summary {
 	padding-top: 3%;
 	padding: 2.5%;
 }
 
+#rflct-img {
+	text-align: center;
+}
 
 #eclair-summary {
 	 padding: 2.5%;
 }
 
 #eclair-img {
-	padding-left: 4%;
+	text-align: center;
 }
 
 img {
-
 	margin: 5%;
 	height: 150px;
 }
