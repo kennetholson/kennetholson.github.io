@@ -1,1 +1,71 @@
-hello world
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kenneth Olson</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular-route.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+</head>
+<body>
+  <div id="main">
+    <div id="background-photo">
+      <p id="name">Kenneth Olson</p>
+      <img id="profile" src="images/profile.png", alt="profile">
+    </div>
+    <p id="about-me-title", class="title">About Myself</p>  
+    <div id="about-me">
+        <p>
+          Hello, I'm Ken. I am a developer living in the Sacramento area. I graduated from Dev Bootcamp in San Francisco and continued improving my skills and learning new skills primarily through hack-a-thon competitions and self-educating. I have worked on facial recognition, voice recognition and data visualization tasks for various projects. I also enjoy creating beautiful and useful things as a hobby, growing up Napa I draw inspiration from nature and it is reflected in the aesthetics of the décor pieces I build. My travel experiences and interest in other cultures inspires me to think outside of box and find new uses for everyday items such as my wine barrel decor pieces. My extensive experience training others in my previous jobs has helped me develop my communication skills and allows me to thrive in a team environment. I also get great satisfaction seeing somebody that I trained succeed.
+        </p>
+    </div>
+      <p id="projects-title" class="title">Projects<p>
+    <div id="projects", class="container-fluid">
+      
+    
+      <div id="happy-camper", class="row">
+        
+        <div id="happy-camper-summary", class="col-md-8">
+        <p id="hc", class="project-name">Happy Camper</p>
+          <p class="summary">
+          
+            An Alexa skill designed to use the ACTIVE API to obtain campground information. Happy Camper is available at the Amazon Skills Store. You can ask Happy Camper for things such as a campground's description, amenities, pet policy, location and nearby attractions. You can also get a list of campgrounds near a certain location such as a city, park, or landmark. Happy Camper was built using Node.js and hosted on AWS Lambda
+          </p>
+        </div>
+        <div id="happy-camper-img", class="col-md-4">
+          <a href="https://github.com/kennetholson/Happy-Camper"><img src="images/camper2.png", alt="Happy Camper"></a>         
+        </div>      
+      </div>
+      
+      <div id="rflct", class="row">
+        <div id="rflct-summary", class="col-md-8">
+          <div id="rfl", class="project-name">Rflct</div>
+          <p class="summary">       
+            A smart mirror that uses the Kairos API to recognize then load user profiles. We use Amazon Alexa to answer any questions you may want to ask. Some of the modules that can be loaded to an individual’s profile include current weather, weakly forecast, traffic for your commute, news headlines, time, and inspirational quotes.</p>
+        </div>
+    
+        <div id="rflct-img", class="col-md-4">  
+          <a href="https://github.com/ChesterHub/RFLCTT"><img src="images/rflct.jpg", alt="rflct"></a>
+        </div>
+      </div>    
+      <div id="eclair">
+        
+        <div id="eclair-summary", class="col-md-8">
+          <p id="ecl", class="project-name">Eclair</p>
+          <p class="summary">
+            Health 2.0 Code-A-Thon, is a 24 hour contest to develop an application to help seniors manage their medical. Eclair is my teams submission with the Pokitdok API we help to calculate when individuals with medicare part-d will hit the "donut hole" (an insurance coverage gap that requires people to 45% cost of medication out of pocket) and suggest alternative medications using First Databank API, that will reduce the cost.
+          </p>
+        </div>
+        <div id="eclair-img", class="col-md-4">
+          <a href="https://github.com/milliechan/eclair"><img src="images/eclair-chart.png", alt="rflct"></a>
+        </div>
+      </div>  
+    </div>  
+  </div>  
+</body>
+</html>

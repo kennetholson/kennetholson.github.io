@@ -1,0 +1,90 @@
+html {
+	height: 100%;
+}
+
+#main {
+	margin: 0;
+	background-color: black;
+	color: #558238;
+	font-size: 16px;
+}
+
+#background-photo {
+	padding: 0;
+	margin: 0;
+	background: url("../images/barrel.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+
+}
+
+#name {
+	font-family: Alex Brush, cursive;
+	padding-top: 5%;
+	padding-bottom: 4%
+	text-align: center;
+	color: rgba(0, 0, 0, 0.71);
+	font-size: 150px;
+}
+
+#profile {
+	height: 300px;
+	width: 300px;
+}
+
+#about-me {
+	text-align: center;
+	line-height: 175%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%
+
+}
+
+.title {
+	font-family: Alex Brush, cursive;
+	font-size: 80px;
+}
+
+#projects {
+
+	padding-left: 4%;
+}
+
+#happy-camper-summary {
+	padding: 2.5%;
+}
+
+#rflct-summary {
+	padding-top: 3%;
+	padding: 2.5%;
+}
+
+
+#eclair-summary {
+	 padding: 2.5%;
+}
+
+#eclair-img {
+	padding-left: 4%;
+}
+
+img {
+
+	margin: 5%;
+	height: 150px;
+}
+
+.project-name {
+	margin: 0;
+	font-family: Alex Brush, cursive;
+	font-size: 30px;
+}
+
+.summary {
+	padding-left: 6%
+}
+
