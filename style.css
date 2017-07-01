@@ -34,6 +34,10 @@ html {
 	width: 300px;
 }
 
+#about-me-title {
+	text-align: center;
+}
+
 #about-me {
 	text-align: center;
 	line-height: 175%;
@@ -70,10 +74,11 @@ html {
 
 #eclair-img {
 	padding-left: 4%;
+	padding-top: 4%;
+
 }
 
-img {
-
+.logo {
 	margin: 5%;
 	height: 150px;
 }
@@ -86,4 +91,14 @@ img {
 
 .summary {
 	padding-left: 6%
+}
+
+.other-title {
+	margin: 0;
+	font-family: Alex Brush, cursive;
+	font-size: 30px;
+}
+.other-img {
+	height: 300px;
+	padding-left: 5%;
 }
